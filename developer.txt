@@ -1,2 +1,2 @@
 <p>Welcome to AIwingman - Your AI-powered assistant for smarter browsing</p>
-<p>Get your OpenAI API key from <a href="https://platform.openai.com/account/api-keys">here!</a></p>
+<p>Get your OpenAI API key from <a target="_blank" href="https://platform.openai.com/account/api-keys">here!</a></p>
