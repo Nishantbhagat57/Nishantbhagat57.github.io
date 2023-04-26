@@ -1070,8 +1070,19 @@ ol, li {
 <script src="assets/f.js" defer=""></script>
 <script src="assets/g.js" defer=""></script>
 
+<script>
+	function adjustViewport() {
+	  var viewportTag = document.getElementsByName("viewport")[0];
+	  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  
+	  if (isMobile) {
+		// Zoom out a little bit if it's a mobile device
+		viewportTag.setAttribute("content", "width=device-width, initial-scale=0.9, maximum-scale=1, user-scalable=no");
+	  }
+	}
+  </script>
 </head>
-<body>
+<body onload="adjustViewport()">
 
 <div class="video-bg">
  <video width="320" height="240" autoplay loop muted>
